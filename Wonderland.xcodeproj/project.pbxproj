@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B4986D019A403F9003F9A1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4986CF19A403F9003F9A1D /* Foundation.framework */; };
+		3B4986D219A403F9003F9A1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4986D119A403F9003F9A1D /* CoreGraphics.framework */; };
+		3B4986D419A403F9003F9A1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4986D319A403F9003F9A1D /* UIKit.framework */; };
+		3B4986DA19A403F9003F9A1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B4986D819A403F9003F9A1D /* InfoPlist.strings */; };
+		3B4986DC19A403F9003F9A1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4986DB19A403F9003F9A1D /* main.m */; };
+		3B4986E019A403F9003F9A1D /* WLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4986DF19A403F9003F9A1D /* WLAppDelegate.m */; };
+		3B4986E319A403F9003F9A1D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4986E119A403F9003F9A1D /* Main_iPhone.storyboard */; };
+		3B4986E619A403F9003F9A1D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4986E419A403F9003F9A1D /* Main_iPad.storyboard */; };
+		3B4986E919A403F9003F9A1D /* WLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4986E819A403F9003F9A1D /* WLFirstViewController.m */; };
+		3B4986EC19A403F9003F9A1D /* WLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4986EB19A403F9003F9A1D /* WLSecondViewController.m */; };
+		3B4986EE19A403F9003F9A1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4986ED19A403F9003F9A1D /* Images.xcassets */; };
+		3B4986F519A403F9003F9A1D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4986F419A403F9003F9A1D /* XCTest.framework */; };
+		3B4986F619A403F9003F9A1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4986CF19A403F9003F9A1D /* Foundation.framework */; };
+		3B4986F719A403F9003F9A1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4986D319A403F9003F9A1D /* UIKit.framework */; };
+		3B4986FF19A403F9003F9A1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B4986FD19A403F9003F9A1D /* InfoPlist.strings */; };
+		3B49870119A403F9003F9A1D /* WonderlandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49870019A403F9003F9A1D /* WonderlandTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B4986F819A403F9003F9A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B4986C419A403F9003F9A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B4986CB19A403F9003F9A1D;
+			remoteInfo = Wonderland;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B4986CC19A403F9003F9A1D /* Wonderland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wonderland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4986CF19A403F9003F9A1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B4986D119A403F9003F9A1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B4986D319A403F9003F9A1D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B4986D719A403F9003F9A1D /* Wonderland-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wonderland-Info.plist"; sourceTree = "<group>"; };
+		3B4986D919A403F9003F9A1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B4986DB19A403F9003F9A1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B4986DD19A403F9003F9A1D /* Wonderland-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wonderland-Prefix.pch"; sourceTree = "<group>"; };
+		3B4986DE19A403F9003F9A1D /* WLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLAppDelegate.h; sourceTree = "<group>"; };
+		3B4986DF19A403F9003F9A1D /* WLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLAppDelegate.m; sourceTree = "<group>"; };
+		3B4986E219A403F9003F9A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		3B4986E519A403F9003F9A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		3B4986E719A403F9003F9A1D /* WLFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLFirstViewController.h; sourceTree = "<group>"; };
+		3B4986E819A403F9003F9A1D /* WLFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLFirstViewController.m; sourceTree = "<group>"; };
+		3B4986EA19A403F9003F9A1D /* WLSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLSecondViewController.h; sourceTree = "<group>"; };
+		3B4986EB19A403F9003F9A1D /* WLSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLSecondViewController.m; sourceTree = "<group>"; };
+		3B4986ED19A403F9003F9A1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B4986F319A403F9003F9A1D /* WonderlandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderlandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4986F419A403F9003F9A1D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3B4986FC19A403F9003F9A1D /* WonderlandTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WonderlandTests-Info.plist"; sourceTree = "<group>"; };
+		3B4986FE19A403F9003F9A1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B49870019A403F9003F9A1D /* WonderlandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WonderlandTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B4986C919A403F9003F9A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4986D219A403F9003F9A1D /* CoreGraphics.framework in Frameworks */,
+				3B4986D419A403F9003F9A1D /* UIKit.framework in Frameworks */,
+				3B4986D019A403F9003F9A1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4986F019A403F9003F9A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4986F519A403F9003F9A1D /* XCTest.framework in Frameworks */,
+				3B4986F719A403F9003F9A1D /* UIKit.framework in Frameworks */,
+				3B4986F619A403F9003F9A1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B4986C319A403F9003F9A1D = {
+			isa = PBXGroup;
+			children = (
+				3B4986D519A403F9003F9A1D /* Wonderland */,
+				3B4986FA19A403F9003F9A1D /* WonderlandTests */,
+				3B4986CE19A403F9003F9A1D /* Frameworks */,
+				3B4986CD19A403F9003F9A1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B4986CD19A403F9003F9A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B4986CC19A403F9003F9A1D /* Wonderland.app */,
+				3B4986F319A403F9003F9A1D /* WonderlandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B4986CE19A403F9003F9A1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B4986CF19A403F9003F9A1D /* Foundation.framework */,
+				3B4986D119A403F9003F9A1D /* CoreGraphics.framework */,
+				3B4986D319A403F9003F9A1D /* UIKit.framework */,
+				3B4986F419A403F9003F9A1D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B4986D519A403F9003F9A1D /* Wonderland */ = {
+			isa = PBXGroup;
+			children = (
+				3B4986DE19A403F9003F9A1D /* WLAppDelegate.h */,
+				3B4986DF19A403F9003F9A1D /* WLAppDelegate.m */,
+				3B4986E119A403F9003F9A1D /* Main_iPhone.storyboard */,
+				3B4986E419A403F9003F9A1D /* Main_iPad.storyboard */,
+				3B4986E719A403F9003F9A1D /* WLFirstViewController.h */,
+				3B4986E819A403F9003F9A1D /* WLFirstViewController.m */,
+				3B4986EA19A403F9003F9A1D /* WLSecondViewController.h */,
+				3B4986EB19A403F9003F9A1D /* WLSecondViewController.m */,
+				3B4986ED19A403F9003F9A1D /* Images.xcassets */,
+				3B4986D619A403F9003F9A1D /* Supporting Files */,
+			);
+			path = Wonderland;
+			sourceTree = "<group>";
+		};
+		3B4986D619A403F9003F9A1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B4986D719A403F9003F9A1D /* Wonderland-Info.plist */,
+				3B4986D819A403F9003F9A1D /* InfoPlist.strings */,
+				3B4986DB19A403F9003F9A1D /* main.m */,
+				3B4986DD19A403F9003F9A1D /* Wonderland-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B4986FA19A403F9003F9A1D /* WonderlandTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B49870019A403F9003F9A1D /* WonderlandTests.m */,
+				3B4986FB19A403F9003F9A1D /* Supporting Files */,
+			);
+			path = WonderlandTests;
+			sourceTree = "<group>";
+		};
+		3B4986FB19A403F9003F9A1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B4986FC19A403F9003F9A1D /* WonderlandTests-Info.plist */,
+				3B4986FD19A403F9003F9A1D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B4986CB19A403F9003F9A1D /* Wonderland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B49870419A403F9003F9A1D /* Build configuration list for PBXNativeTarget "Wonderland" */;
+			buildPhases = (
+				3B4986C819A403F9003F9A1D /* Sources */,
+				3B4986C919A403F9003F9A1D /* Frameworks */,
+				3B4986CA19A403F9003F9A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wonderland;
+			productName = Wonderland;
+			productReference = 3B4986CC19A403F9003F9A1D /* Wonderland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B4986F219A403F9003F9A1D /* WonderlandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B49870719A403F9003F9A1D /* Build configuration list for PBXNativeTarget "WonderlandTests" */;
+			buildPhases = (
+				3B4986EF19A403F9003F9A1D /* Sources */,
+				3B4986F019A403F9003F9A1D /* Frameworks */,
+				3B4986F119A403F9003F9A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B4986F919A403F9003F9A1D /* PBXTargetDependency */,
+			);
+			name = WonderlandTests;
+			productName = WonderlandTests;
+			productReference = 3B4986F319A403F9003F9A1D /* WonderlandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B4986C419A403F9003F9A1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bluepego Consulting";
+				TargetAttributes = {
+					3B4986F219A403F9003F9A1D = {
+						TestTargetID = 3B4986CB19A403F9003F9A1D;
+					};
+				};
+			};
+			buildConfigurationList = 3B4986C719A403F9003F9A1D /* Build configuration list for PBXProject "Wonderland" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B4986C319A403F9003F9A1D;
+			productRefGroup = 3B4986CD19A403F9003F9A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B4986CB19A403F9003F9A1D /* Wonderland */,
+				3B4986F219A403F9003F9A1D /* WonderlandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B4986CA19A403F9003F9A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4986E619A403F9003F9A1D /* Main_iPad.storyboard in Resources */,
+				3B4986EE19A403F9003F9A1D /* Images.xcassets in Resources */,
+				3B4986E319A403F9003F9A1D /* Main_iPhone.storyboard in Resources */,
+				3B4986DA19A403F9003F9A1D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4986F119A403F9003F9A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4986FF19A403F9003F9A1D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B4986C819A403F9003F9A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4986DC19A403F9003F9A1D /* main.m in Sources */,
+				3B4986EC19A403F9003F9A1D /* WLSecondViewController.m in Sources */,
+				3B4986E919A403F9003F9A1D /* WLFirstViewController.m in Sources */,
+				3B4986E019A403F9003F9A1D /* WLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4986EF19A403F9003F9A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B49870119A403F9003F9A1D /* WonderlandTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B4986F919A403F9003F9A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B4986CB19A403F9003F9A1D /* Wonderland */;
+			targetProxy = 3B4986F819A403F9003F9A1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B4986D819A403F9003F9A1D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B4986D919A403F9003F9A1D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B4986E119A403F9003F9A1D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B4986E219A403F9003F9A1D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3B4986E419A403F9003F9A1D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B4986E519A403F9003F9A1D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3B4986FD19A403F9003F9A1D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B4986FE19A403F9003F9A1D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B49870219A403F9003F9A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B49870319A403F9003F9A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B49870519A403F9003F9A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wonderland/Wonderland-Prefix.pch";
+				INFOPLIST_FILE = "Wonderland/Wonderland-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B49870619A403F9003F9A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wonderland/Wonderland-Prefix.pch";
+				INFOPLIST_FILE = "Wonderland/Wonderland-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3B49870819A403F9003F9A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wonderland.app/Wonderland";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wonderland/Wonderland-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WonderlandTests/WonderlandTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3B49870919A403F9003F9A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wonderland.app/Wonderland";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wonderland/Wonderland-Prefix.pch";
+				INFOPLIST_FILE = "WonderlandTests/WonderlandTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B4986C719A403F9003F9A1D /* Build configuration list for PBXProject "Wonderland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B49870219A403F9003F9A1D /* Debug */,
+				3B49870319A403F9003F9A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B49870419A403F9003F9A1D /* Build configuration list for PBXNativeTarget "Wonderland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B49870519A403F9003F9A1D /* Debug */,
+				3B49870619A403F9003F9A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B49870719A403F9003F9A1D /* Build configuration list for PBXNativeTarget "WonderlandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B49870819A403F9003F9A1D /* Debug */,
+				3B49870919A403F9003F9A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B4986C419A403F9003F9A1D /* Project object */;
+}
