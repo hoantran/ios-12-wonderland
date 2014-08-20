@@ -16,13 +16,22 @@
 		3B4986E319A403F9003F9A1D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4986E119A403F9003F9A1D /* Main_iPhone.storyboard */; };
 		3B4986E619A403F9003F9A1D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4986E419A403F9003F9A1D /* Main_iPad.storyboard */; };
 		3B4986E919A403F9003F9A1D /* WLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4986E819A403F9003F9A1D /* WLFirstViewController.m */; };
-		3B4986EC19A403F9003F9A1D /* WLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4986EB19A403F9003F9A1D /* WLSecondViewController.m */; };
 		3B4986EE19A403F9003F9A1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4986ED19A403F9003F9A1D /* Images.xcassets */; };
 		3B4986F519A403F9003F9A1D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4986F419A403F9003F9A1D /* XCTest.framework */; };
 		3B4986F619A403F9003F9A1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4986CF19A403F9003F9A1D /* Foundation.framework */; };
 		3B4986F719A403F9003F9A1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4986D319A403F9003F9A1D /* UIKit.framework */; };
 		3B4986FF19A403F9003F9A1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B4986FD19A403F9003F9A1D /* InfoPlist.strings */; };
 		3B49870119A403F9003F9A1D /* WonderlandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49870019A403F9003F9A1D /* WonderlandTests.m */; };
+		3B49870D19A40458003F9A1D /* Alice.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B49870B19A40458003F9A1D /* Alice.txt */; };
+		3B49870E19A40458003F9A1D /* Characters.nsarray in Resources */ = {isa = PBXBuildFile; fileRef = 3B49870C19A40458003F9A1D /* Characters.nsarray */; };
+		3B7616F519A414B600409C8C /* WLAuthorInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7616F419A414B600409C8C /* WLAuthorInfoViewController.m */; };
+		3B7616FB19A428D900409C8C /* WLCharacterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7616FA19A428D900409C8C /* WLCharacterDetailViewController.m */; };
+		3B7616FE19A4314400409C8C /* WLCharacterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7616FD19A4314400409C8C /* WLCharacterTableViewController.m */; };
+		3B76170119A5299100409C8C /* WLBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B76170019A5299100409C8C /* WLBookViewController.m */; };
+		3B76170419A529B800409C8C /* WLBookDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B76170319A529B800409C8C /* WLBookDataSource.m */; };
+		3B76170719A529CD00409C8C /* WLPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B76170619A529CD00409C8C /* WLPaginator.m */; };
+		3B76170A19A529F000409C8C /* WLOnePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B76170919A529F000409C8C /* WLOnePageViewController.m */; };
+		3B76170D19A52A1900409C8C /* WLOnePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B76170C19A52A1900409C8C /* WLOnePageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +59,30 @@
 		3B4986E519A403F9003F9A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		3B4986E719A403F9003F9A1D /* WLFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLFirstViewController.h; sourceTree = "<group>"; };
 		3B4986E819A403F9003F9A1D /* WLFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLFirstViewController.m; sourceTree = "<group>"; };
-		3B4986EA19A403F9003F9A1D /* WLSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLSecondViewController.h; sourceTree = "<group>"; };
-		3B4986EB19A403F9003F9A1D /* WLSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLSecondViewController.m; sourceTree = "<group>"; };
 		3B4986ED19A403F9003F9A1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3B4986F319A403F9003F9A1D /* WonderlandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderlandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4986F419A403F9003F9A1D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B4986FC19A403F9003F9A1D /* WonderlandTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WonderlandTests-Info.plist"; sourceTree = "<group>"; };
 		3B4986FE19A403F9003F9A1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B49870019A403F9003F9A1D /* WonderlandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WonderlandTests.m; sourceTree = "<group>"; };
+		3B49870B19A40458003F9A1D /* Alice.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Alice.txt; sourceTree = "<group>"; };
+		3B49870C19A40458003F9A1D /* Characters.nsarray */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Characters.nsarray; sourceTree = "<group>"; };
+		3B7616F319A414B600409C8C /* WLAuthorInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLAuthorInfoViewController.h; sourceTree = "<group>"; };
+		3B7616F419A414B600409C8C /* WLAuthorInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLAuthorInfoViewController.m; sourceTree = "<group>"; };
+		3B7616F919A428D900409C8C /* WLCharacterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCharacterDetailViewController.h; sourceTree = "<group>"; };
+		3B7616FA19A428D900409C8C /* WLCharacterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCharacterDetailViewController.m; sourceTree = "<group>"; };
+		3B7616FC19A4314400409C8C /* WLCharacterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCharacterTableViewController.h; sourceTree = "<group>"; };
+		3B7616FD19A4314400409C8C /* WLCharacterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCharacterTableViewController.m; sourceTree = "<group>"; };
+		3B7616FF19A5299100409C8C /* WLBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLBookViewController.h; path = Wonderland/WLBookViewController.h; sourceTree = SOURCE_ROOT; };
+		3B76170019A5299100409C8C /* WLBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLBookViewController.m; path = Wonderland/WLBookViewController.m; sourceTree = SOURCE_ROOT; };
+		3B76170219A529B800409C8C /* WLBookDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLBookDataSource.h; path = Wonderland/WLBookDataSource.h; sourceTree = SOURCE_ROOT; };
+		3B76170319A529B800409C8C /* WLBookDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLBookDataSource.m; path = Wonderland/WLBookDataSource.m; sourceTree = SOURCE_ROOT; };
+		3B76170519A529CD00409C8C /* WLPaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLPaginator.h; path = Wonderland/WLPaginator.h; sourceTree = SOURCE_ROOT; };
+		3B76170619A529CD00409C8C /* WLPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLPaginator.m; path = Wonderland/WLPaginator.m; sourceTree = SOURCE_ROOT; };
+		3B76170819A529F000409C8C /* WLOnePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLOnePageViewController.h; path = Wonderland/WLOnePageViewController.h; sourceTree = SOURCE_ROOT; };
+		3B76170919A529F000409C8C /* WLOnePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLOnePageViewController.m; path = Wonderland/WLOnePageViewController.m; sourceTree = SOURCE_ROOT; };
+		3B76170B19A52A1900409C8C /* WLOnePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLOnePageView.h; path = Wonderland/WLOnePageView.h; sourceTree = SOURCE_ROOT; };
+		3B76170C19A52A1900409C8C /* WLOnePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLOnePageView.m; path = Wonderland/WLOnePageView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,16 +142,31 @@
 		3B4986D519A403F9003F9A1D /* Wonderland */ = {
 			isa = PBXGroup;
 			children = (
+				3B7616FF19A5299100409C8C /* WLBookViewController.h */,
+				3B76170019A5299100409C8C /* WLBookViewController.m */,
+				3B76170219A529B800409C8C /* WLBookDataSource.h */,
+				3B76170319A529B800409C8C /* WLBookDataSource.m */,
+				3B76170519A529CD00409C8C /* WLPaginator.h */,
+				3B76170619A529CD00409C8C /* WLPaginator.m */,
+				3B76170819A529F000409C8C /* WLOnePageViewController.h */,
+				3B76170919A529F000409C8C /* WLOnePageViewController.m */,
+				3B76170B19A52A1900409C8C /* WLOnePageView.h */,
+				3B76170C19A52A1900409C8C /* WLOnePageView.m */,
+				3B49870A19A40458003F9A1D /* Data Resources */,
 				3B4986DE19A403F9003F9A1D /* WLAppDelegate.h */,
 				3B4986DF19A403F9003F9A1D /* WLAppDelegate.m */,
 				3B4986E119A403F9003F9A1D /* Main_iPhone.storyboard */,
 				3B4986E419A403F9003F9A1D /* Main_iPad.storyboard */,
 				3B4986E719A403F9003F9A1D /* WLFirstViewController.h */,
 				3B4986E819A403F9003F9A1D /* WLFirstViewController.m */,
-				3B4986EA19A403F9003F9A1D /* WLSecondViewController.h */,
-				3B4986EB19A403F9003F9A1D /* WLSecondViewController.m */,
 				3B4986ED19A403F9003F9A1D /* Images.xcassets */,
 				3B4986D619A403F9003F9A1D /* Supporting Files */,
+				3B7616F319A414B600409C8C /* WLAuthorInfoViewController.h */,
+				3B7616F419A414B600409C8C /* WLAuthorInfoViewController.m */,
+				3B7616F919A428D900409C8C /* WLCharacterDetailViewController.h */,
+				3B7616FA19A428D900409C8C /* WLCharacterDetailViewController.m */,
+				3B7616FC19A4314400409C8C /* WLCharacterTableViewController.h */,
+				3B7616FD19A4314400409C8C /* WLCharacterTableViewController.m */,
 			);
 			path = Wonderland;
 			sourceTree = "<group>";
@@ -158,6 +198,15 @@
 				3B4986FD19A403F9003F9A1D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B49870A19A40458003F9A1D /* Data Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B49870B19A40458003F9A1D /* Alice.txt */,
+				3B49870C19A40458003F9A1D /* Characters.nsarray */,
+			);
+			path = "Data Resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,10 +286,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B49870E19A40458003F9A1D /* Characters.nsarray in Resources */,
 				3B4986E619A403F9003F9A1D /* Main_iPad.storyboard in Resources */,
 				3B4986EE19A403F9003F9A1D /* Images.xcassets in Resources */,
 				3B4986E319A403F9003F9A1D /* Main_iPhone.storyboard in Resources */,
 				3B4986DA19A403F9003F9A1D /* InfoPlist.strings in Resources */,
+				3B49870D19A40458003F9A1D /* Alice.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +311,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B4986DC19A403F9003F9A1D /* main.m in Sources */,
-				3B4986EC19A403F9003F9A1D /* WLSecondViewController.m in Sources */,
+				3B76170A19A529F000409C8C /* WLOnePageViewController.m in Sources */,
+				3B7616FB19A428D900409C8C /* WLCharacterDetailViewController.m in Sources */,
 				3B4986E919A403F9003F9A1D /* WLFirstViewController.m in Sources */,
+				3B7616F519A414B600409C8C /* WLAuthorInfoViewController.m in Sources */,
+				3B7616FE19A4314400409C8C /* WLCharacterTableViewController.m in Sources */,
 				3B4986E019A403F9003F9A1D /* WLAppDelegate.m in Sources */,
+				3B76170719A529CD00409C8C /* WLPaginator.m in Sources */,
+				3B76170419A529B800409C8C /* WLBookDataSource.m in Sources */,
+				3B76170119A5299100409C8C /* WLBookViewController.m in Sources */,
+				3B76170D19A52A1900409C8C /* WLOnePageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +535,7 @@
 				3B49870619A403F9003F9A1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B49870719A403F9003F9A1D /* Build configuration list for PBXNativeTarget "WonderlandTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +544,7 @@
 				3B49870919A403F9003F9A1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
